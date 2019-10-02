@@ -16,7 +16,16 @@ import org.springframework.web.server.ResponseStatusException;
  * Implements a REST-based controller for the pricing service.
  */
 @RestController
-@RequestMapping("/services/price")
+@RequestMapping("#H2\n" +
+        "spring.h2.console.path=/h2\n" +
+        "spring.datasource.url=jdbc:h2:mem:data\n" +
+        "\n" +
+        "#Eureka Client\n" +
+        "spring.application.name=pricing-service\n" +
+        "server.port=8082\n" +
+        "eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/\n" +
+        "eureka.client.service-url.default-zone=http://localhost:8761/eureka/\n" +
+        "eureka.instance.prefer-ip-address=false")
 public class PricingController {
 
     /**
