@@ -1,0 +1,29 @@
+[
+
+  {
+    "_class":"com.udacity.pricing.domain.price.Price",
+    "vehicleId":1,
+    "currency":"USD",
+    "price": 11000.11
+  },
+  {
+    "_class":"com.udacity.pricing.domain.price.Price",
+    "vehicleId":2,
+    "currency":"USD",
+    "price": 22000.22
+  },
+  {
+    "_class":"com.udacity.pricing.domain.price.Price",
+    "vehicleId":3,
+    "currency":"USD",
+    "price": 33000.33
+  },
+  {
+    "_class":"com.udacity.pricing.domain.price.Price",
+    "vehicleId":4,
+    "currency":"USD",
+    "price": 44000.44
+  }
+
+
+]

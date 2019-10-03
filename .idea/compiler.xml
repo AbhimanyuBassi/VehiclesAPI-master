@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaServer" />
+        <module name="vehicles-api" />
         <module name="pricing-service" />
         <module name="boogle-maps" />
-        <module name="vehicles-api" />
+        <module name="eurekaServer" />
       </profile>
     </annotationProcessing>
   </component>
