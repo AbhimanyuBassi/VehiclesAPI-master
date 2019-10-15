@@ -11,7 +11,6 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.Collections;
-
 @Configuration
 @EnableSwagger2
 public class Swagger {
@@ -31,8 +30,7 @@ public class Swagger {
                 "This API returns vehicle information.",
                 "1.0",
                 "http://www.udacity.com/tos",
-                new Contact("Shannon", "www.udacity.com", "myeaddress@udacity.com"),
+                new Contact("Abhimanyu", "www.udacity.com", "myaddress@udacity.com"),
                 "License of API", "http://www.udacity.com/license", Collections.emptyList());
     }
-
 }
